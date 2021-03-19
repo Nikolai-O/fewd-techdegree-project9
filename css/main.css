@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #403b3b;
+}
+
+.header {
+    background-color: #FFE018;
+}
+
+.headshot {
+    border-radius: 50%;
+    max-width: 20%;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .active>.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: coral;
+}
+
+#topLink:hover,
+#projectsLink:hover,
+#contactLink:hover,
+#aboutLink:hover {
+    color:#FFE018;
+}
+
+#Nikolai {
+    color: white;
+}
+
+.btn-primary {
+    color: #403b3b;
+    border-color: #FFE018;
+    background-color: #FFE018;
+}
+
+.credits div {
+    color: rgb(149, 149, 149);
+}
+
+.credits div a {
+    color: #403b3b;
+}
+
+.about {
+    background-color: #403b3b;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-btn {
+    position: absolute;
+    top: 45%;
+    left: 44%;
+    display: none;
+    cursor: pointer;
+}
+
+/* #aboutBtn {
+    cursor: pointer;
+} */
+
+.btn-light {
+    background-color: rgb(247, 247, 247, 0.65);
+    border-color: rgba(247, 247, 247, 0.65)
+}
+
+.contact {
+    background-color: #403b3b;
+}
+
+.contact-message {
+    color: white;
+}
+
+.linkedin,
+.instagram,
+.twitter {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+#nikolaiVideoSm,
+#nikolaiVideo {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    #nikolaiVideoSm {
+        display: inline;
+    }
+
+    .about-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    #nikolaiVideoSm {
+        display: none;
+    }
+    #nikolaiVideo {
+        display: inline;
+    }
+}
