@@ -117,7 +117,7 @@ body {
     background-color: transparent;
 }
 
-#modalContent {
+.modalContent {
     background-color: transparent;
     border: none;
 }
@@ -152,6 +152,12 @@ body {
     border: none;
     cursor: pointer;
     z-index: 2;
+}
+
+@media (max-width: 350px) {
+    .display-4 {
+        font-size: 1.9rem;
+    }
 }
 
 @media (min-width: 768px) {

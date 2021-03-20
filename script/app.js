@@ -1,7 +1,6 @@
 const about = document.getElementById('about');
 const aboutBtn = document.getElementById('aboutBtn');
 const overlay1 = document.getElementById('overlay1');
-const modalContent = document.getElementById('modalContent')
 const modalClose1 = document.getElementById("modalClose1");
 const modalClose2 = document.getElementById("modalClose2");
 const next = document.getElementById("modalNext");
